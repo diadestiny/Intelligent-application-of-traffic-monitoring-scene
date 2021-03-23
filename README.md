@@ -34,17 +34,9 @@ whl和torchvision-0.4.0+cu92-cp37-cp37m-win_amd64.whl
 
 启动项目。
 
-![img](file:///C:/Users/lin/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
-
- 
-
  
 
 2. 点击“选择视频”按钮，选择项目下videos文件夹下的测试视频。
-
-(这里以video-03.avi为例)
-
-![img](file:///C:/Users/lin/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
 
  
 
