@@ -117,12 +117,12 @@ def open_file():
             k_h = h / (h // 2)
             res_img = cv2.resize(image, (w // 2, h // 2))
             img_gray = cv2.cvtColor(res_img, cv2.COLOR_BGR2GRAY)
-            is_like('Image/coin1.png', img_gray, 0.8, k_w, k_h, 'light')
-            is_like('Image/coin2.png', img_gray, 0.8, k_w, k_h, 'light')
-            is_like('Image/coin3.png', img_gray, 0.8, k_w, k_h, 'light')
-            is_like('Image/coin4.png', img_gray, 0.8, k_w, k_h, 'light')
-            is_like('Image/coin5.png', img_gray, 0.8, k_w, k_h, 'light')
-            is_like('Image/coin6.png', img_gray, 0.9, k_w, k_h, 'light')
+            # is_like('Image/coin1.png', img_gray, 0.8, k_w, k_h, 'light')
+            # is_like('Image/coin2.png', img_gray, 0.8, k_w, k_h, 'light')
+            # is_like('Image/coin3.png', img_gray, 0.8, k_w, k_h, 'light')
+            # is_like('Image/coin4.png', img_gray, 0.8, k_w, k_h, 'light')
+            # is_like('Image/coin5.png', img_gray, 0.8, k_w, k_h, 'light')
+            # is_like('Image/coin6.png', img_gray, 0.9, k_w, k_h, 'light')
             is_like('Image/coin7.png', img_gray, 0.95, k_w, k_h, 'zebra')
             is_like('Image/coin8.png', img_gray, 0.90, k_w, k_h, 'zebra')
             is_like('Image/coin9.png', img_gray, 0.99, k_w, k_h, 'zebra')
@@ -140,8 +140,7 @@ def open_file():
                 [int(lights[1][0]), int(lights[1][1]), int(lights[1][2]), int(lights[1][3])])
         elif len(lights) == 3:
             position['left_light'].append([int(lights[0][0]), int(lights[0][1]), int(lights[0][2]), int(lights[0][3])])
-            position['center_light'].append(
-                [int(lights[1][0]), int(lights[1][1]), int(lights[1][2]), int(lights[1][3])])
+            position['center_light'].append([int(lights[1][0]), int(lights[1][1]), int(lights[1][2]), int(lights[1][3])])
             position['right_light'].append([int(lights[2][0]), int(lights[2][1]), int(lights[2][2]), int(lights[2][3])])
         if len(zebra) == 1:
             position['zebra_crossing'].append([int(zebra[0][0]), int(zebra[0][1]), int(zebra[0][2]), int(zebra[0][3])])
