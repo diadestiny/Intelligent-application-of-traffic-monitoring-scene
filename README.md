@@ -1,6 +1,6 @@
 # Intelligent-application-of-traffic-monitoring-scene
 
-一、运行所需环境、相关库，以及配置
+## 1. 运行所需环境、相关库，以及配置
 
 1. 运行系统：windows
 
@@ -22,22 +22,22 @@ whl和torchvision-0.4.0+cu92-cp37-cp37m-win_amd64.whl
 
  上), torchvision(要求如上)五个依赖库。
 
- 
-
- 
-
- 
-
-二、本程序使用说明书
+## 2. 使用流程
 
 1. 以上环境配置完成后，用PyCharm等工具打开AACarTeam项目文件夹，运行GUI.py
 
 启动项目。
 
- 
-
 2. 点击“选择视频”按钮，选择项目下videos文件夹下的测试视频。
 
- 
-
 3. 点击“开始识别”按钮。
+
+## 3. 演示demo
+
+![3](show_images\3.png)
+
+![3](show_images\2.png)
+
+![3](show_images\1.png)
+
+![3](show_images\4.png)
