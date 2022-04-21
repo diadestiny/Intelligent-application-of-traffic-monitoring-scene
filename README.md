@@ -34,10 +34,10 @@ whl和torchvision-0.4.0+cu92-cp37-cp37m-win_amd64.whl
 
 ## 3. 演示demo
 
-![3](show_images\3.png)
+![3](./show_images/3.png)
 
-![3](show_images\2.png)
+![2](./show_images/2.png)
 
-![3](show_images\1.png)
+![1](./show_images/1.png)
 
-![3](show_images\4.png)
+![4](./show_images/4.png)
