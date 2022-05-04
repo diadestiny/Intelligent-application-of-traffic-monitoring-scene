@@ -24,7 +24,7 @@ whl和torchvision-0.4.0+cu92-cp37-cp37m-win_amd64.whl
 
 ## 2. 使用流程
 
-1. 以上环境配置完成后，用PyCharm等工具打开AACarTeam项目文件夹，运行GUI.py
+1. 以上环境配置完成后，用PyCharm等工具打开本项目文件夹，运行GUI.py
 
 启动项目。
 
